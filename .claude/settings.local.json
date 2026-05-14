@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(grep -qE \"Ready in|Local:|Error|error:\" \"C:\\\\\\\\Users\\\\\\\\ADMINI~1\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-Administrator-ekvator360-ekvator360-app\\\\\\\\5b0ebf48-ad13-4453-a389-3a875c4b3a82\\\\\\\\tasks\\\\\\\\bg3zrolm8.output\")",
+      "Bash(grep -E \"Ready in|Local:|http://|Error|error:\" \"C:\\\\\\\\Users\\\\\\\\ADMINI~1\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\C--Users-Administrator-ekvator360-ekvator360-app\\\\\\\\5b0ebf48-ad13-4453-a389-3a875c4b3a82\\\\\\\\tasks\\\\\\\\bg3zrolm8.output\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"Status: %{http_code} Size: %{size_download} Time: %{time_total}s\\\\n\" http://localhost:3000/)"
+    ]
+  }
+}
