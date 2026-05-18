@@ -1,8 +1,16 @@
 "use client"
 
 import { Container } from "@/components/site/container"
-import { WorldMap } from "@/components/site/world-map"
+import { GlobePulse } from "@/components/ui/cobe-globe-pulse"
 import { useLanguage } from "@/lib/i18n/language-provider"
+
+const exportPulseMarkers = [
+  { id: "istanbul", location: [41.01, 28.97] as [number, number], delay: 0 },
+  { id: "london", location: [51.51, -0.13] as [number, number], delay: 0.45 },
+  { id: "new-york", location: [40.71, -74.01] as [number, number], delay: 0.9 },
+  { id: "dubai", location: [25.2, 55.27] as [number, number], delay: 1.2 },
+  { id: "singapore", location: [1.35, 103.82] as [number, number], delay: 1.55 },
+]
 
 export function InternationalVisionSection() {
   const { t } = useLanguage()
@@ -56,18 +64,23 @@ export function InternationalVisionSection() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative min-h-[420px]">
             <div
               aria-hidden
-              className="pointer-events-none absolute -inset-10 -z-10 rounded-[40px] opacity-50"
+              className="pointer-events-none absolute -inset-10 -z-10 rounded-[40px] opacity-65"
               style={{
                 background:
-                  "radial-gradient(closest-side, color-mix(in oklch, var(--brand-accent) 28%, transparent), transparent 70%)",
+                  "radial-gradient(closest-side, color-mix(in oklch, var(--brand-red) 30%, transparent), transparent 72%)",
               }}
             />
-            <div className="relative rounded-2xl border border-white/10 bg-white/[0.02] p-3 backdrop-blur">
-              <div className="text-white/30">
-                <WorldMap />
+            <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.015))] p-4 backdrop-blur">
+              <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--brand-red)]/55 to-transparent" />
+              <div className="mx-auto max-w-[560px]">
+                <GlobePulse
+                  markers={exportPulseMarkers}
+                  speed={0.0022}
+                  className="mx-auto w-full max-w-[540px]"
+                />
               </div>
               <div className="pointer-events-none absolute inset-x-3 bottom-3 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-white/10 bg-[oklch(0.12_0.04_260)]/70 px-4 py-3 text-[11.5px] text-white/70 backdrop-blur">
                 <span className="font-mono uppercase tracking-[0.18em]">

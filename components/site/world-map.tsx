@@ -148,19 +148,19 @@ export function WorldMap({ className }: { className?: string }) {
         <linearGradient id="wmArc" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stopColor="white" stopOpacity="0" />
           <stop offset="35%" stopColor="white" stopOpacity="0.95" />
-          <stop offset="100%" stopColor="oklch(0.78 0.18 250)" stopOpacity="0" />
+          <stop offset="100%" stopColor="var(--brand-red)" stopOpacity="0" />
         </linearGradient>
         <radialGradient id="wmHub" cx="50%" cy="50%" r="50%">
           <stop offset="0%" stopColor="white" stopOpacity="0.9" />
-          <stop offset="60%" stopColor="oklch(0.78 0.18 250)" stopOpacity="0.5" />
-          <stop offset="100%" stopColor="oklch(0.78 0.18 250)" stopOpacity="0" />
+          <stop offset="60%" stopColor="var(--brand-red)" stopOpacity="0.52" />
+          <stop offset="100%" stopColor="var(--brand-red)" stopOpacity="0" />
         </radialGradient>
       </defs>
 
       {/* Dot field continents */}
       <g fill="currentColor">
         {dots.map((d, i) => (
-          <circle key={i} cx={d.x} cy={d.y} r={1.4} opacity={0.55} />
+          <circle key={i} cx={d.x} cy={d.y} r={1.45} opacity={0.62} />
         ))}
       </g>
 
@@ -196,14 +196,14 @@ export function WorldMap({ className }: { className?: string }) {
                 <circle r={14} fill="url(#wmHub)" />
                 <circle
                   r={5}
-                  fill="oklch(0.78 0.18 250)"
+                  fill="var(--brand-red)"
                   opacity="0.5"
                   className="animate-pulse-ring"
                 />
               </>
             ) : null}
             <circle r={h.primary ? 3 : 2.2} fill="white" />
-            <circle r={h.primary ? 1.3 : 0.9} fill="oklch(0.45 0.18 258)" />
+            <circle r={h.primary ? 1.3 : 0.9} fill="var(--brand-accent)" />
             <text
               x={h.primary ? 10 : 8}
               y={4}

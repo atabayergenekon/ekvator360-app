@@ -1,4 +1,3 @@
-import { SiteHeader } from "@/components/site/site-header"
 import { SiteFooter } from "@/components/site/site-footer"
 import { HeroSection } from "@/components/site/sections/hero"
 import { WhatWeDoSection } from "@/components/site/sections/what-we-do"
@@ -45,7 +44,6 @@ export default function HomePage() {
           __html: JSON.stringify([orgJsonLd, serviceJsonLd]),
         }}
       />
-      <SiteHeader />
       <main>
         <HeroSection />
         <WhatWeDoSection />

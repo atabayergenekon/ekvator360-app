@@ -102,7 +102,7 @@ export function FinalCtaSection() {
                 <ArrowUpRight className="size-4 text-white/45 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <div className="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/[0.06] p-5">
-                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/[0.08] text-[var(--brand-red)]">
+                <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/[0.08] text-white">
                   <MapPin className="size-5" />
                 </span>
                 <div className="flex flex-col gap-1">

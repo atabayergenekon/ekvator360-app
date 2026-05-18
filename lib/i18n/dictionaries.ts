@@ -156,11 +156,11 @@ const tr: Dictionary = {
   },
   hero: {
     eyebrow: "Uluslararası Satış Yönetimi · 2007'den beri",
-    titleStart: "Şirketinizin",
-    titleHighlight: "global ölçekte satış yapmasına",
-    titleEnd: "yardımcı oluyoruz.",
+    titleStart: "Üretiminiz güçlü.",
+    titleHighlight: "Satışınız dünyada büyür.",
+    titleEnd: "",
     subtitle:
-      "Ekvator360, sizin dış kaynaklı uluslararası satış departmanınızdır. Yurt dışı kanallarınızı kurar, yabancı alıcıları nitelendirir ve ihracat operasyonunuzu uçtan uca yönetiriz, böylece üreticiler tam operasyonel güvenle sınırların ötesine büyür.",
+      "Ekvator360, üreticiler için dış kaynaklı uluslararası satış departmanıdır. Doğru pazarları seçer, nitelikli alıcılarla görüşmeleri başlatır ve ihracat sürecinizi uçtan uca yönetiriz.",
     ctaPrimary: "Görüşme Başlatın",
     ctaSecondary: "Ne Yaptığımızı İnceleyin",
     trust: [
@@ -388,8 +388,8 @@ const tr: Dictionary = {
   },
   vision: {
     badge: "Uluslararası Vizyon",
-    titleLine1: "Fabrikanız burada kalır.",
-    titleLine2: "Satış erişiminiz her yere gider.",
+    titleLine1: "Buradan üretin.",
+    titleLine2: "Dünyaya satış yapın.",
     subtitle:
       "Ekvator360 altı kıtada faaliyet gösterir, ürünlerinizin ihtiyaç duyulduğu pazarlarda varlık inşa eder ve alıcılarla premium uluslararası tedarikçilerin beklendiği şekilde buluşur.",
     regions: [
@@ -505,11 +505,11 @@ const en: Dictionary = {
   },
   hero: {
     eyebrow: "International Sales Management · Since 2007",
-    titleStart: "We help your company",
-    titleHighlight: "sell globally",
-    titleEnd: ".",
+    titleStart: "Your production is strong.",
+    titleHighlight: "Your sales grow worldwide.",
+    titleEnd: "",
     subtitle:
-      "Ekvator360 is your outsourced international sales department. We build overseas channels, qualify foreign buyers and manage your export operation end to end, so manufacturers can grow beyond borders with full operational confidence.",
+      "Ekvator360 is the outsourced international sales department for manufacturers. We select the right markets, open conversations with qualified buyers and manage your export process end to end.",
     ctaPrimary: "Start a Conversation",
     ctaSecondary: "Explore What We Do",
     trust: [
@@ -737,8 +737,8 @@ const en: Dictionary = {
   },
   vision: {
     badge: "International Vision",
-    titleLine1: "Your factory stays here.",
-    titleLine2: "Your sales reach goes everywhere.",
+    titleLine1: "Make here.",
+    titleLine2: "Sell worldwide.",
     subtitle:
       "Ekvator360 operates across six continents, building presence in markets where your products are needed, and meeting buyers the way premium international suppliers are expected to meet them.",
     regions: [
@@ -854,11 +854,11 @@ const ru: Dictionary = {
   },
   hero: {
     eyebrow: "Управление международными продажами · с 2007 года",
-    titleStart: "Мы помогаем вашей компании",
-    titleHighlight: "продавать по всему миру",
-    titleEnd: ".",
+    titleStart: "Ваше производство сильное.",
+    titleHighlight: "Ваши продажи растут по всему миру.",
+    titleEnd: "",
     subtitle:
-      "Ekvator360, это ваш внешний отдел международных продаж. Мы выстраиваем зарубежные каналы, квалифицируем иностранных покупателей и управляем вашей экспортной операцией под ключ, чтобы производители могли расти за пределами своих границ с полной операционной уверенностью.",
+      "Ekvator360 — это внешний отдел международных продаж для производителей. Мы выбираем правильные рынки, начинаем диалог с квалифицированными покупателями и управляем экспортным процессом под ключ.",
     ctaPrimary: "Начать диалог",
     ctaSecondary: "Узнать, что мы делаем",
     trust: [
@@ -1086,8 +1086,8 @@ const ru: Dictionary = {
   },
   vision: {
     badge: "Международное видение",
-    titleLine1: "Ваш завод остаётся здесь.",
-    titleLine2: "Ваш охват продаж, повсюду.",
+    titleLine1: "Производите здесь.",
+    titleLine2: "Продавайте по всему миру.",
     subtitle:
       "Ekvator360 работает на шести континентах, строит присутствие на рынках, где нужны ваши продукты, и встречается с покупателями так, как ожидается от премиум-международных поставщиков.",
     regions: [

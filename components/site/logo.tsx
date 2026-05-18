@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils"
 
 const USE_CUSTOM_LOGO = true
 const CUSTOM_LOGO_SRC = "/logo.png"
-const CUSTOM_LOGO_SRC_LIGHT = "/logo-light.png"
+const CUSTOM_LOGO_SRC_LIGHT: string | null = null
 const CUSTOM_LOGO_WIDTH = 401
 const CUSTOM_LOGO_HEIGHT = 59
 
@@ -38,7 +38,8 @@ export function Logo({
   const logoSrc = tone === "light" ? CUSTOM_LOGO_SRC_LIGHT : CUSTOM_LOGO_SRC
   const [failedLogoSrc, setFailedLogoSrc] = React.useState<string | null>(null)
 
-  const showCustomLogo = USE_CUSTOM_LOGO && failedLogoSrc !== logoSrc
+  const showCustomLogo =
+    USE_CUSTOM_LOGO && logoSrc !== null && failedLogoSrc !== logoSrc
 
   return (
     <Link
@@ -47,7 +48,7 @@ export function Logo({
       className={cn(
         "group inline-flex items-center gap-2.5 transition-opacity hover:opacity-90 focus-visible:opacity-90 focus-visible:outline-none",
         tone === "light" ? "text-white" : "text-foreground",
-        className,
+        className
       )}
     >
       {showCustomLogo ? (
@@ -89,7 +90,9 @@ export function Logo({
                 Ekvator
                 <span
                   className={cn(
-                    tone === "light" ? "text-white/80" : "text-[var(--brand-accent)]",
+                    tone === "light"
+                      ? "text-white/80"
+                      : "text-[var(--brand-accent)]"
                   )}
                 >
                   360
@@ -97,8 +100,10 @@ export function Logo({
               </span>
               <span
                 className={cn(
-                  "mt-1 text-[9.5px] font-medium uppercase tracking-[0.22em]",
-                  tone === "light" ? "text-white/55" : "text-muted-foreground/80",
+                  "mt-1 text-[9.5px] font-medium tracking-[0.22em] uppercase",
+                  tone === "light"
+                    ? "text-white/55"
+                    : "text-muted-foreground/80"
                 )}
               >
                 Global Export Partners

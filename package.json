@@ -9,11 +9,13 @@
     "start": "next start",
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "crm:seed-admin": "node scripts/seed-crm-admin.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cobe": "^2.0.1",
     "lucide-react": "^1.14.0",
     "next": "16.1.7",
     "next-themes": "^0.4.6",
