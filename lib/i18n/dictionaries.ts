@@ -201,7 +201,7 @@ const tr: Dictionary = {
   whatWeDo: {
     eyebrow: "Ne Yapıyoruz",
     titleStart: "Firmanızın gerçek potansiyelini",
-    titleHighlight: "ortaya çıkartıyoruz.",
+    titleHighlight: "ortaya çıkartıyoruz. ",
     titleEnd: "Ürünlerinizi küresel pazara taşıyoruz.",
     subtitle:
       "Ekvator360, ihracatta ciddi olan üreticiler için uluslararası satış motorudur. Stratejiyi, operasyonu ve insani ilişkileri biz taşırız, pazarlar, zaman dilimleri ve alıcı profilleri boyunca.",
