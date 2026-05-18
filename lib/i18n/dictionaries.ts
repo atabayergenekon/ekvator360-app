@@ -149,18 +149,18 @@ const tr: Dictionary = {
     whyUs: "Neden Biz",
     contact: "İletişim",
     cta: "Görüşme Talep Et",
-    badge: "Q3 ortaklıkları için başvurular açık",
+    badge: "Q3 Dönem Başvuruları Açıldı",
     languageLabel: "Dil",
     menuOpen: "Menüyü aç",
     menuClose: "Menüyü kapat",
   },
   hero: {
     eyebrow: "Uluslararası Satış Yönetimi · 2007'den beri",
-    titleStart: "Üretiminiz güçlü.",
-    titleHighlight: "Satışınız dünyada büyür.",
+    titleStart: "Üretiminiz gücü ile",
+    titleHighlight: "Satışlarınızı artırıyoruz.",
     titleEnd: "",
     subtitle:
-      "Ekvator360, üreticiler için dış kaynaklı uluslararası satış departmanıdır. Doğru pazarları seçer, nitelikli alıcılarla görüşmeleri başlatır ve ihracat sürecinizi uçtan uca yönetiriz.",
+      "Ekvator360, ihracat yapmak isteyen üretiler için uluslararası satış departmanıdır. Doğru pazarları seçer, nitelikli alıcılarla görüşmeleri başlatır ve ihracat sürecinizi uçtan uca yönetiriz.",
     ctaPrimary: "Görüşme Başlatın",
     ctaSecondary: "Ne Yaptığımızı İnceleyin",
     trust: [
