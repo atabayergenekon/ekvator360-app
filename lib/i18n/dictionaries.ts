@@ -157,10 +157,10 @@ const tr: Dictionary = {
   hero: {
     eyebrow: "Uluslararası Satış Yönetimi · 2007'den beri",
     titleStart: "Üretiminiz gücü ile",
-    titleHighlight: "Satışlarınızı artırıyoruz.",
+    titleHighlight: "satışlarınızı artırıyoruz.",
     titleEnd: "",
     subtitle:
-      "Ekvator360, ihracat yapmak isteyen üretiler için uluslararası satış departmanıdır. Doğru pazarları seçer, nitelikli alıcılarla görüşmeleri başlatır ve ihracat sürecinizi uçtan uca yönetiriz.",
+      "Ekvator360, ihracat yapmak isteyen üreticiler için uluslararası satış departmanıdır. Size özel ihracat, pazarlama ve satış ekibine ek maliyet olmadan sahip olun!",
     ctaPrimary: "Görüşme Başlatın",
     ctaSecondary: "Ne Yaptığımızı İnceleyin",
     trust: [
@@ -168,7 +168,7 @@ const tr: Dictionary = {
       { label: "1.200+ alıcı", caption: "Nitelikli ilişki" },
       { label: "18 yıl", caption: "Operasyonel liderlik" },
     ],
-    sectorsHeading: "İhracata hazır üreticilerimizin sektörleri",
+    sectorsHeading: "İhracatta Çalıştığımız Sektörler",
     sectors: [
       "Makine",
       "Gıda ve İçecek",
@@ -200,9 +200,9 @@ const tr: Dictionary = {
   },
   whatWeDo: {
     eyebrow: "Ne Yapıyoruz",
-    titleStart: "Premium bir ihracat firması,",
-    titleHighlight: "büyümeniz etrafında inşa edildi",
-    titleEnd: ", panelleriniz etrafında değil.",
+    titleStart: "Firmanızın gerçek potansiyelini",
+    titleHighlight: "ortaya çıkartıyoruz.",
+    titleEnd: "Ürünlerinizi küresel pazara taşıyoruz.",
     subtitle:
       "Ekvator360, ihracatta ciddi olan üreticiler için uluslararası satış motorudur. Stratejiyi, operasyonu ve insani ilişkileri biz taşırız, pazarlar, zaman dilimleri ve alıcı profilleri boyunca.",
     intro:
